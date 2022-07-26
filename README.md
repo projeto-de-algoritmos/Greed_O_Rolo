@@ -35,6 +35,15 @@ Sistema que utiliza APT:
 > $ git clone https://github.com/projeto-de-algoritmos/Greed_O_Rolo && cd Greed_O_Rolo
 - Instale os requisitos
 > $ ./instalacao.sh
+- Ou instale manualmente
+> $ sudo apt install git gcc g++ cmake libjsoncpp-dev uuid-dev openssl libssl-dev zlib1g-dev
+> $ git clone https://github.com/an-tao/drogon
+> $ cd drogon
+> $ git submodule update --init
+> $ mkdir build
+> $ cd build
+> $ cmake ..
+> $ make && sudo make install
 - Entre no diretório build, compile, gere o executável e rode o programa
 > $ cd build && cmake .. && make && ./rolo
 - Agora é só digitar no seu navegador o endereço 127.0.0.1:5055 
