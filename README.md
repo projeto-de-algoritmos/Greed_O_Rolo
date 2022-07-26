@@ -16,7 +16,14 @@ Você possui algum arquivo de texto pesado em sua máquina? Aplicamos a codifica
 Normalmente esse processo é demorado por conta de sua própria natureza e ainda por cima ele é desenvolvido em linguagens de programação e frameworks lentos. Nós usamos C++ (uma das linguagens mais rápidas) e o framework drogon (o framework mais rápido do mundo. Fonte:https://www.techempower.com/benchmarks/#section=data-r19&hw=ph&test=composite). Aproveite nosso rolo compressor! 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+<table>
+    <tr>
+        <td>Tela inicial</td><td>Jogo</td><td>Resultado</td>
+    </tr>
+    <tr>
+        <td><img src="/1.png" width="200"></td><td><img src="/2.png" width="200"></td><td><img src="/3.png" width="200"></td>
+    </tr>
+</table>
 
 ## Instalação 
 **Linguagem**: C++<br>
