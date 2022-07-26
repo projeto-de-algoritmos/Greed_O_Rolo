@@ -18,7 +18,7 @@ Normalmente esse processo é demorado por conta de sua própria natureza e ainda
 ## Screenshots
 <table>
     <tr>
-        <td>Tela inicial</td><td>Jogo</td><td>Resultado</td>
+        <td>Tela inicial</td><td>Escolher Arquivo</td><td>Resultado</td>
     </tr>
     <tr>
         <td><img src="/1.png" width="200"></td><td><img src="/2.png" width="200"></td><td><img src="/3.png" width="200"></td>
