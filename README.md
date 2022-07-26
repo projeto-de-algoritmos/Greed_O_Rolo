@@ -37,14 +37,18 @@ Sistema que utiliza APT:
 > $ ./instalacao.sh
 - Ou instale manualmente
 > $ sudo apt install git gcc g++ cmake libjsoncpp-dev uuid-dev openssl libssl-dev zlib1g-dev
-> $ git clone https://github.com/an-tao/drogon
-> $ cd drogon
+> - Baixe o Framework
+> $ git clone https://github.com/an-tao/drogon && cd drogon
+- Baixe os submódulos
 > $ git submodule update --init
+- Crie uma pasta para o build
 > $ mkdir build
+- Entre na pasta
 > $ cd build
-> $ cmake ..
-> $ make && sudo make install
+- Compile
+> $ cmake .. && $ make && sudo make install
 - Entre no diretório build, compile, gere o executável e rode o programa
+- Entre no build dentro do diretório rolo
 > $ cd build && cmake .. && make && ./rolo
 - Agora é só digitar no seu navegador o endereço 127.0.0.1:5055 
 
